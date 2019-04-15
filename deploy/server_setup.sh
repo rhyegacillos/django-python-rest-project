@@ -15,7 +15,7 @@ echo "Installing dependencies..."
 apt-get update
 apt-get install -y python3-dev python3-venv sqlite python-pip supervisor nginx git
 
-mkdir -p $PROJECT_BASE_PATH
+mkdir -p $DOCTYPE html
 git clone $PROJECT_GIT_URL $PROJECT_BASE_PATH/profiles-rest-api
 
 mkdir -p $VIRTUALENV_BASE_PATH
